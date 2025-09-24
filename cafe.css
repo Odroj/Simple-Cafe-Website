@@ -38,6 +38,7 @@
     padding-left: 24px;
     padding-right: 24px;
     vertical-align: top;
+    border-radius: 12px;
 }
 
 .pic-block{
@@ -62,6 +63,35 @@
 
 .pic-block1{
     background-color: #FAF0EB;
+}
+.welcome-block{
+    width: 672px;
+    height: 273px; 
+    margin: 0 auto; 
+}
+.welcome-block1{
+    width: 100%; 
+    height: 433px; 
+    margin: 0 auto; 
+    padding: 80px 40px;
+    background-color: #EDCEBE;
+    box-sizing: border-box; 
+    border-radius: 12px;
+}
+.menu-button{
+    background-color: #86401D;
+    color: white;
+    border: none; 
+    width: 150px; 
+    height: 45px;
+    transition: background-color .5s; 
+    border-radius: 6px;
+}
+.menu-button:hover{
+    background-color: #CF632D;
+}
+.menu-button:active{
+    background-color: #D98054;
 }
  body{
     background-color: #FAF0EB; 
