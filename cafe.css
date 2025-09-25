@@ -165,6 +165,47 @@
     color: inherit;
 
 }
+.menu-header{
+    background-color:#EDCEBE;
+    padding: 40px 20px;
+    text-align: center;
+    border-radius: 12px;
+}
+.menu-header h1 {
+    margin: 0;
+    font-size: 36px;
+    color: #4B3F2F;
+}
+
+.menu-section {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.menu-category{
+    margin-bottom: 32px;;
+}
+.menu-category h2 {
+    color: #86401D;
+    border-bottom: 2px solid #EDCEBE;
+    padding-bottom: 8px;
+}
+.menu-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    border-bottom: 1px dashed #EDCEBE;
+}
+.menu-item-name {
+      font-weight: bold;
+    }
+  .menu-item-price {
+      color: #86401D;
+    }
+
 
  body{
     background-color: #FAF0EB; 
