@@ -1,10 +1,13 @@
+/* Shared layout for feature headings */
 .pull1, .pull2, .pull3{
     display: inline-block;
     width: 45%;
 }
+/* Title spacing */
 .title-3{
     margin-bottom:48px; 
 }
+/* Individual feature block styling */
 .us-special{
     justify-content: center;
     display: inline-block;
@@ -17,12 +20,15 @@
     background-color: #EDCEBE;
     vertical-align: top;
 }
+/* Paragraph text inside feature blocks */
 .us-special p{
     font-size: 20px;
 }
+/* Heading text inside feature blocks */
 .us-special h3{
     font-size: 19px;
 }
+/* Inner container for all features */
 .special-block{
     justify-content: center;
     width: 1152px;
@@ -30,8 +36,7 @@
     background-color: #EDCEBE;
     margin: 0 auto;
 }
-
-
+/* Outer container for spacing and rounded edges */
 .special-block1{
     justify-content: center;
     margin: 0 auto; 
@@ -46,35 +51,37 @@
     vertical-align: top;
     border-radius: 12px;
 }
-
+/* Inner container for image rows */
 .pic-block{
     width: 916px;
     margin: 0 auto;
     text-align: center;
 }
-
+/* Layout for each row of images */
 .image-row{
     display: flex;
     justify-content: center;
     gap: 20px;
     margin-bottom: 20px; 
 }
-
+/* Individual image styling */
 .image-row img{
     width: 280px;
     height: 200px;
     object-fit: cover;
     border-radius: 8px;
 }
-
+/* Outer container for gallery section */
 .pic-block1{
     background-color: #FAF0EB;
 }
+/* Inner container for welcome message */
 .welcome-block{
     width: 672px;
     height: 273px; 
     margin: 0 auto; 
 }
+/* Outer container for welcome section */
 .welcome-block1{
     width: 100%; 
     height: 433px; 
@@ -84,6 +91,7 @@
     box-sizing: border-box; 
     border-radius: 12px;
 }
+/* CTA button styling */
 .menu-button{
     background-color: #86401D;
     color: white;
@@ -93,31 +101,37 @@
     transition: background-color .5s; 
     border-radius: 6px;
 }
+/* Hover effect for CTA button */
 .menu-button:hover{
     background-color: #CF632D;
 }
+/* Active state for CTA button */
 .menu-button:active{
     background-color: #D98054;
 }
-
+/*Container for header layaout*/
 .header-container{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px; 
 }
+/*Logo block dimentions*/
 .header-block{
     width: 241px; 
     height: 48px; 
 }
+/*Aligns logo and text horizontally*/
 .header-block h2{
     display: flex;
     align-items: center;
     margin: 0
 }
+/* Container for navigation buttons */
 .head-block{
     display: inline-block; 
 }
+/* Logo image styling */
 .logo{
     width: 40px;
     height: auto;
@@ -126,6 +140,7 @@
     background-color: transparent;
     border-radius: 8px;
 }
+/* Navigation buttons styling */
 .nav-buttons{
     background-color: transparent;
     border: none;
@@ -134,12 +149,15 @@
     font-family: 'merriweather' ;
     font-size: 20px;
 }
+/* Hover effect for nav buttons */
 .nav-buttons:hover{
     color:#CF632D ;
 }
+/* Active state for menu button */
 .menu-button:active{
     color: #D98054;
 }
+/* Footer container styling */
 .footer-container {
   background-color: #EDCEBE;
   padding: 32px 24px;
@@ -147,7 +165,7 @@
   color: #4B3F2F;
   border-radius: 12px;
 }
-
+/* Layout for top part of footer */
 .footer-top {
   display: flex;
   justify-content: space-between;
@@ -155,28 +173,31 @@
   flex-wrap: wrap;
   margin-bottom: 24px;
 }
-
+/* Individual footer section block */
 .footer-section {
   width: 30%;
   min-width: 200px;
 }
+/* Link styling inside nav section */
 .footer-section.nav a{
     text-decoration: none;
     color: inherit;
 
 }
+/* Header block for menu page */
 .menu-header{
     background-color:#EDCEBE;
     padding: 40px 20px;
     text-align: center;
     border-radius: 12px;
 }
+/* Menu page title */
 .menu-header h1 {
     margin: 0;
     font-size: 36px;
     color: #4B3F2F;
 }
-
+/* Container for menu categories */
 .menu-section {
     max-width: 900px;
     margin: 40px auto;
@@ -185,28 +206,32 @@
     border-radius: 12px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
+/* Spacing between categories */
 .menu-category{
     margin-bottom: 32px;;
 }
+/* Category title styling */
 .menu-category h2 {
     color: #86401D;
     border-bottom: 2px solid #EDCEBE;
     padding-bottom: 8px;
 }
+/* Layout for individual menu items */
 .menu-item {
     display: flex;
     justify-content: space-between;
     padding: 8px 0;
     border-bottom: 1px dashed #EDCEBE;
 }
+/* Menu item name styling */
 .menu-item-name {
-      font-weight: bold;
-    }
-  .menu-item-price {
-      color: #86401D;
-    }
-
-
+    font-weight: bold;
+}
+/* Menu item price styling */
+.menu-item-price {
+    color: #86401D;
+}
+/* Sets the background color for the entire page*/
  body{
     background-color: #FAF0EB; 
  }

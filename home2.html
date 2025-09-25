@@ -1,31 +1,38 @@
+<!-- 
+ Name: Jordyn-Rhys Davis
+ ID:2405407
+ Module: Web Programming
+ Occurence: UM2
+Lecturer: C. Anuli 
+-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cozy Brew Cafe</title>
-    <link rel="stylesheet" href="cafe.css">
+    <link rel="stylesheet" href="cafe.css"> <!-- Linking the CSS sheet to the home page -->
 </head>
-<body>
-    <span><font face="merriweather">
-        <header class="header-container"> 
-            <div class="header-block">
+<body> 
+    <span><font face="merriweather"> <!-- To ensure all the font for the doc is the same-->
+        <header class="header-container"> <!-- Contains logo and Navigation buttons-->
+            <div class="header-block"> <!-- Nested container with logo and site name-->
                 <h2 id="Home">
                     <img src="kofe.jpeg" class="logo">
                     Cozy Brew Cafe
                 </h2>
             </div>
-            <div class="head-block">
+            <div class="head-block"> <!-- Navigation buttons linking to sections and menu page -->
                 <button class="nav-buttons" onclick="window.location.href='#Home'">Home</button>|
                 <button class="nav-buttons" onclick="window.location.href='#About-us'">About Us</button>|
                 <button class="nav-buttons" onclick="window.location.href='menu.html'">Menu</button>|
                 <button class="nav-buttons" onclick="window.location.href='#Contact'">Contact Us</button>
             </div>
         </header>
-        <main>
-            <section>
-                <div class="welcome-block1">
-                    <div class="welcome-block">
+        <main> <!-- Central content of the homepage -->
+            <section> <!-- Hero message and call to action -->
+                <div class="welcome-block1"><!-- Container -->
+                    <div class="welcome-block"><!-- Nested container with welcome message and menu button-->
                         <h1 align="center">
                             Welcome to Cozy Brew Cafe!
                         </h1>
@@ -40,13 +47,13 @@
                 </div>
             </section>
             <br>
-            <section>
+            <section><!-- Image gallery: Showcase of cafe atmosphere-->
                 <div class="pic-block1">
                     <div class="pic-block">
                         <h2 align="center">
                             Experience Cozy Brew
                         </h2>
-                        <div class="image-row">
+                        <div class="image-row"> <!--Container for images-->
                             <img src="Pic1.jpeg">
                             <img src="Pic2.jpeg">
                         </div>
@@ -62,52 +69,50 @@
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> 
             <br>
-            <section>
-                <div class="special-block1">
-                    <div class="special-block">
+            <section><!-- Highlights what makes the cafe special -->
+                <div class="special-block1"><!-- Outer container for spacing-->
+                    <div class="special-block"><!-- Inner container for layout and styling-->
                         <h2 class="title-3" align="center">
                             What Makes Us Special
                         </h2>
-                        <div>
-                            <div class="us-special" align="center">
-                                <h3 class="pull1">
-                                    Premium Coffee
-                                </h3>
-                                <p align="center">
-                                    Sourced from sustainable farms and roasted in-house daily for the perfect cup every time.
-                                </p>
-                            </div>
-                            <div class="us-special" align="center" >
-                                <h3 class="pull2" >
-                                    Fresh Pastries
-                                </h4>
-                                <p align="center">
-                                    Handcrafted pastries, sandwiches, and light meals made fresh daily with local ingredients.
-                                </p>
-                            </div>
-                            <div class="us-special" align="center">
-                                <h3 class="pull3" align="center">
-                                    Cozy Atmosphere
-                                </h4>
-                                <p align="center">
-                                    A cozy space perfect for catching up with friends, working, or simply enjoying a quiet moment.
-                                </p>
-                            </div>
+                        <div class="us-special" align="center"><!-- Feature Block-->
+                            <h3 class="pull1">
+                                Premium Coffee
+                            </h3>
+                            <p align="center">
+                                Sourced from sustainable farms and roasted in-house daily for the perfect cup every time.
+                            </p>
+                        </div>
+                        <div class="us-special" align="center" >
+                            <h3 class="pull2" >
+                                Fresh Pastries
+                            </h4>
+                            <p align="center">
+                                Handcrafted pastries, sandwiches, and light meals made fresh daily with local ingredients.
+                            </p>
+                        </div>
+                        <div class="us-special" align="center">
+                            <h3 class="pull3" align="center">
+                                Cozy Atmosphere
+                            </h4>
+                            <p align="center">
+                                A cozy space perfect for catching up with friends, working, or simply enjoying a quiet moment.
+                            </p>
                         </div>
                     </div>
                 </div>
             </section>
             <br>
-            <section id="About-us" id="About-us">
+            <section id="About-us">
                 <h2 align="center">
                     About Us
                 </h2>
             </section>
         </main>
-        <footer class="footer-container">
-            <div class="footer-top">
+        <footer class="footer-container"><!-- Provides branding, navigation, contact info, and copyright-->
+            <div class="footer-top"><!-- Divided into three columns-->
                 <div class="footer-section brand">
                      <h2>
                         <img src="kofe.jpeg" class="logo">
@@ -117,18 +122,18 @@
                         Your neighborhood gathering place for exceptional coffee, artisanal pastries, and warm community connections in the heart of downtown.
                     </p>
                 </div>
-                <div class="footer-section nav">
+                <div class="footer-section nav"><!-- Quick links to key sections -->
                     <h4>
                         Quick Links
                     </h4>
                     <ul>
-                        <li><a href="#Home">Home</a></li>
+                        <li><a href="#Home">Home</a></li><!--Internal anchor links for smooth scrolling-->
                         <li><a href="#About-us">About Us</a></li>
                         <li><a href="menu.html">Menu</a></li>
                         <li><a href="#Contact">Contact</a></li>
                     </ul>
                 </div>
-                <div class="footer-section address" id="Contact">
+                <div class="footer-section address" id="Contact"><!--Location and contact info-->
                     <h4> Our Location</h4>
                     1500 Moonlight District<br> Unit C <br> Kingston 50, Jamaica <br>
                     <h4>Contact us</h4>
@@ -139,7 +144,7 @@
                     </p>
                 </div>
             </div>
-            <div class="footer-bottom">
+            <div class="footer-bottom"><!--Copyright section-->
                 <p>&copy; 2024 Java Cafe. All rights reserved.</p>
             </div>
         </footer>
