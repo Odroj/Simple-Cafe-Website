@@ -125,7 +125,7 @@
 .header-block h2{
     display: flex;
     align-items: center;
-    margin: 0
+    margin: 0 auto; 
 }
 /* Container for navigation buttons */
 .head-block{
@@ -156,6 +156,29 @@
 /* Active state for menu button */
 .menu-button:active{
     color: #D98054;
+}
+section#About-us{
+    min-height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 20px;
+}
+.about-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 40px 20px;
+}
+.About-block{
+    max-width: 800px;
+    width: 100%;
+    text-align: center; 
+    margin: 0 auto;
+}
+.About-block p{
+    font-size: 19px;
 }
 /* Footer container styling */
 .footer-container {
